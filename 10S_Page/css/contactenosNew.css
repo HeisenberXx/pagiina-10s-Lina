@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Poppins:wght@100&display=swap');
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+input, select{
+    background-color: transparent;
+    border-bottom-color: #3e418438;
+}
+
+textarea{
+    border-color: #3e418438;
+}
+
+.prueba{
+    font-family: 'Poppins', sans-serif;
+}
+
