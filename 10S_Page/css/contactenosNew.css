@@ -6,10 +6,18 @@
     flex-direction: column;
 }
 
-input, select{
+input,
+select {
     background-color: transparent;
-    border-bottom-color: #3e418438;
+    border-bottom: 2px solid #3e418438; /* Ancho y color del borde-bottom */
+    transition: border-bottom-color 0.5s ease-in; /* Transición para el color del borde-bottom */
 }
+
+input:focus,
+select:focus {
+    border-bottom-color: #1f2147; /* Nuevo color del borde-bottom al hacer clic */
+}
+
 
 textarea{
     border-color: #3e418438;
@@ -17,5 +25,38 @@ textarea{
 
 .prueba{
     font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.card{
+    border: none;
+}
+
+
+
+p{
+    color: #1f2147;
+}
+
+.boton-enviar{
+    background-color: white;
+    border: 2px solid #1f2147 !important; /* Ancho y color del borde */
+    border-radius: 90px;
+    color: #1f2147;
+    font-weight: 700;
+    padding: 7px 7px 7px 7px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    
+}
+
+.boton-enviar:hover{
+    background-color: #1f2147;
+    border: 2px solid hsl(0, 100%, 98%) !important; /* Ancho y color del borde */
+    border-radius: 30px;
+    color: white;
+    font-weight: 700;
+    padding: 7px 7px 7px 7px;
+   
 }
 
