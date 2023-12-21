@@ -176,18 +176,20 @@ li {
 /*     Navigation     */
 /**********************/
 .navbar {
-	font-weight: 500;
-	font-size: 0.875rem;
-	line-height: 0.875rem;
-	background-color: var(--primary);
-	box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.025);
+	height: 85px;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 0.875rem;
+    align-items: center;
+    background-color: var(--primary);
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.025);
 }
 
 .navbar .logo{
-	height: 80px;
-	border-radius: 50px;
-	border-color: black;
-	border-bottom: #3E4184;
+	height: 50px;
+    border-radius: 50px;
+    border-color: black;
+    border-bottom: #3E4184;
 }
 
 .navbar .navbar-brand {
