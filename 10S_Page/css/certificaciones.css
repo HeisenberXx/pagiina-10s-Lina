@@ -16,3 +16,14 @@
 .swiper-certificadosThumbs .swiper-slide-thumb-active {
   opacity: 1;
 }
+
+.card {
+  height: 100%;
+}
+
+.card-header{
+  justify-content: center;
+  display: flex;
+  height: 82.52;
+  align-items: center;
+}

@@ -23,10 +23,36 @@ textarea{
     border-color: #3e418438;
 }
 
+.primeraCol{
+    margin-top: 10rem !important;
+}
+
 .prueba{
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 40px;
+}
+
+.formularioInicio{
+    margin-top: 2.5rem !important;
+}
+
+@media (max-width: 767px){
+    .primeraCol{
+        margin-top: 5rem !important;
+    }
+
+    .formularioInicio{
+        margin-top: 1px !important;
+    }
+
+    .btn-enviar{
+        margin-top: 2rem;
+    }
+
+    .card-body{
+        padding: 0;
+    }
 }
 
 .card{
@@ -60,3 +86,8 @@ p{
    
 }
 
+@media (min-width: 768px) and (max-width: 1199px){
+    .prueba{
+        font-size: 30px;
+    }
+}
