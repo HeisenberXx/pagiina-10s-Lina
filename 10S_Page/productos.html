@@ -23,8 +23,9 @@
     <link href="./css/bootstrap.min.css" rel="stylesheet">
     <link href="./css/fontawesome-all.min.css" rel="stylesheet">
     <link href="./css/aos.min.css" rel="stylesheet">
-    <link href="./css/swiper.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/swiperNew.min.css">
     <link href="./css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/productos.css">
 
     <!-- Favicon -->
     <link rel="icon" href="./assets/images/10s_transp.png">
@@ -81,18 +82,19 @@
                         <a class="nav-link" href="./certificaciones.html">Certificaciones</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html#contact">Ubicación</a>
-                    </li>
-                    <li class="nav-item">
 						<a class="nav-link" href="./casosdeexito.html">Casos de éxito</a>
 				    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#contact">Ubicación</a>
+                    </li>
                     <li class="nav-item">
 						<a class="nav-link" href="./contactenos.html">Contáctenos</a>
 				    </li>
                 </ul>
             </div> <!-- end of navbar-collapse -->
         </div> <!-- end of container -->
-    </nav> <!-- end of navbar -->
+    </nav> 
+    <!-- end of navbar -->
     <!-- end of navigation -->
 <!-- Header -->
 <header class="ex-header-contact">
@@ -105,99 +107,157 @@
     </div> <!-- end of container -->
 </header> <!-- end of ex-header -->
 <!-- end of header -->
-<div id="plans" class="site-content" >
-    <div class="container text-dark">
-        <div class="row gy-4 py-2 services-text">
-            <div class="col-lg-4" >
-                <div class="card-plans bg-transparent px-4">
-                    <h4 class="py-2">Servicios profesionales</h4>
-                    <p class="py-3 subtitle">Talentos GIS al servicio de su negocio</p>
-                    <div class="block d-flex align-items-center">
-                        <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
-                        <p>Talentos GIS capacitados</p>
-                    </div>
-                    <div class="block d-flex align-items-center">
-                        <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
-                        <p>Perfiles de Liderazgo:  Arquitectos</p>
-                    </div>
-                    <div class="block d-flex align-items-center">
-                        <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
-                        <p>Perfiles de Ejecución: Consultor GIS, desarrollador y analistas</p>
-                    </div>
-                    <div class="block d-flex align-items-center">
-                        <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
-                        <p>Mejores prácticas</p>
-                    </div>
-                    <div class="my-3">
-                        <a class="btn" href="./productos/brochure10s.html">Ver información</a>
-                    </div>
-                </div>  
-            </div>
 
-            <div class="col-lg-4">
-                <div class="card-plans bg-transparent px-4">
-                    <h4 class="py-2">AdminGIS</h4>
-                    <p class="py-3 subtitle">Solución de Administración de Plataforma GIS</p>
-                    <div class="block d-flex align-items-center">
-                        <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
-                        <p>Diferentes planes acorde a tus necesidades</p>
-                    </div>
-                    <div class="block d-flex align-items-center">
-                        <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
-                        <p>Administración de roles</p>
-                    </div>
-                    <br><br>
-                    <!--
-                    <div class="my-3">
-                        <a class="btn" href="./productos/admingis.html" >Ver información</a>
-                    </div>
-                    -->
-                    <div class="my-3">
-                        <a class="btn" href="./productos/AdminGIS Brochure.pdf" download="./productos/AdminGIS Brochure.pdf">Descargar Brochure</a>
-                    </div>
-                </div>  
-            </div>
-
-            <div class="col-lg-4">
-                <div class="card-plans bg-transparent px-4" >
-                    <h4 class="py-2">LocGIS</h4>
-                    <p class="py-3 subtitle">Software que permite ubicar la sede con cobertura más cercana a tu cliente y la mejor ruta entre ellos</p>
-                    <div class="block d-flex align-items-center">
-                        <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
-                        <p>Solución de geolocalización</p>
-                    </div>
-                    <div class="block d-flex align-items-center">
-                        <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
-                        <p>Sin licenciamiento</p>
-                    </div>
-                    <div class="block d-flex align-items-center">
-                        <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
-                        <p>Sin infraestructura</p>
-                    </div>
-                    <!--
-                    <div class="my-3">
-                        <a class="btn" href="./productos/locgis.html" >Ver información</a>                    
-                    </div>
-                    -->
-                    <table>
-                        <tr>
-                            <td>
-                                <div class="my-3">
-                                    <a class="btn" href="./productos/Brochure Geolocalizador 10S.pdf" target="_blank">Ver Brochure</a>
-                                </div>
-                            </td>
-                            <td>
-                                <div class="my-3">
-                                    <a class="btn" href="./productos/Brochure Geolocalizador 10S.pdf" download="./productos/AdminGIS Brochure.pdf">Descargar Brochure</a>
-                                </div>
-                            </td>
-                        </tr>
-                    </table>
-                </div>  
-            </div>
+<div class="container">
+    <div class="row">
+        <div class="col-2 col-sm-1" style="justify-content: start; display: flex;">
+            <div class="swiper-button-prev t" style="position: relative;"></div>
         </div>
+        <div class="col-8 col-sm-10">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide certificaciones">
+                    <div class="card">
+                        <div class="card-header" style="background-color: #3E4184; color: white;">
+                            <h4 class="py-2">Servicios profesionales</h4>
+                        </div>
+
+                        <div class="card-body" style="text-align: left; font-size: 20px;">
+                            <div class="row">
+                                <div class="col-12">
+                                    <p class="py-3 subtitle">Talentos GIS al servicio de su negocio</p>
+                                </div>
+                                <div class="col-12">
+                                    <div class="block d-flex align-items-center">
+                                        <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
+                                        <p>Talentos GIS capacitados</p>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="block d-flex align-items-center">
+                                        <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
+                                        <p>Perfiles de Liderazgo:  Arquitectos</p>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="block d-flex align-items-center">
+                                        <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
+                                        <p>Perfiles de Ejecución: Consultor GIS, desarrollador y analistas</p>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="block d-flex align-items-center">
+                                        <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
+                                        <p>Mejores prácticas</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer text-muted" style="border: none; background-color: white;">
+                            <div class="my-3" style="text-align: center;">
+                                <a class="btn" href="./productos/brochure10s.html">Ver información</a>
+                            </div>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="swiper-slide certificaciones">
+                    <div class="card">
+                        <div class="card-header" style="background-color: #3E4184; color: white;">
+                            <h4 class="py-2">AdminGIS</h4>
+                        </div>
+                        <div class="card-body" style="font-size: 20px;">
+                            <div class="col-12">
+                                <p class="py-3 subtitle">Solución de Administración de Plataforma GIS</p>
+                            </div>
+                            <div class="col-12">
+                                <div class="block d-flex" style="align-items: center;">
+                                    <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
+                                    <p style="text-align: left;">Diferentes planes acorde a tus necesidades</p>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="block d-flex align-items-center">
+                                    <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
+                                    <p>Administración de roles</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="card-footer text-muted" style="border: none; background-color: white;">
+                            <div class="my-3" style="text-align: center;">
+                                <a class="btn" href="./productos/brochure10s.html">Ver información</a>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide certificaciones">
+                    <div class="card">
+                        <div class="card-header" style="background-color: #3E4184; color: white;">
+                            <h4 class="py-2">LocGIS</h4>
+                        </div>
+                        <div class="card-body" style="font-size: 20px;">
+                            <div class="col-12">
+                                <p class="py-3 subtitle">Software que permite ubicar la sede con cobertura más cercana a tu cliente y la mejor ruta entre ellos</p>
+                            </div>
+                            <div class="col-12">
+                                <div class="block d-flex align-items-center">
+                                    <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
+                                    <p>Solución de geolocalización</p>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="block d-flex align-items-center">
+                                    <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
+                                    <p>Sin licenciamiento</p>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="block d-flex align-items-center">
+                                    <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
+                                    <p>Sin infraestructura</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="card-footer text-muted" style="border: none; background-color: white;">
+                            <div class="row">
+                                <div class="col-5">
+                                    <div class="my-3">
+                                        <a class="btn" href="./productos/Brochure Geolocalizador 10S.pdf" target="_blank">Ver Brochure</a>
+                                    </div>
+                                </div>
+                                <div class="col-7">
+                                    <div class="my-3">
+                                        <a class="btn" href="./productos/Brochure Geolocalizador 10S.pdf" download="./productos/AdminGIS Brochure.pdf">Descargar Brochure</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+
+                  
+                  
+                    </div>
+                  </div>
+                  </div>
+                  <div class="col-2 col-sm-1" style="justify-content: end; display: flex;">
+                    <div class="swiper-button-next tt" style="position: relative;"></div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+              
+                <!-- If we need navigation buttons -->
+
+            </div>
     </div>
 </div>
 
-<script src="js/script.js"></script>
+
+<script src="./js/swiperNew.min.js"></script>
+<script src="js/productos.js"></script>
 </body>

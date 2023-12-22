@@ -795,7 +795,7 @@ embed {
 	.navbar {
 		box-shadow: none;
 		transition: all 0.2s;
-		padding-top: 1.75rem;
+		/* padding-top: 1.75rem; */
 		background-color: var(--primary);
 	}
 

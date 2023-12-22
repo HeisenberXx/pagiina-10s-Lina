@@ -13,7 +13,7 @@ if(window.innerWidth < 760){
 }else{
     let swiperCertificados = new Swiper('.swiper', {
 
-        loop: true,
+        loop: false,
         navigation: {
             nextEl: ".tt",
             prevEl: ".t",
@@ -23,7 +23,7 @@ if(window.innerWidth < 760){
 
         breakpoints: {
             1200: {
-                slidesPerView: 3
+                slidesPerView: 2
             }
         }
   });
@@ -41,7 +41,7 @@ if(window.innerWidth < 760){
 
     breakpoints: {
         1200: {
-            slidesPerView: 3
+            slidesPerView: 2
         }
     }
     });

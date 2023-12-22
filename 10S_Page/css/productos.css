@@ -1,0 +1,40 @@
+.swiper-slide {
+    text-align: center;
+    
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-certificadosThumbs .swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 0.4;
+}
+
+.swiper-certificadosThumbs .swiper-slide-thumb-active {
+  opacity: 1;
+}
+
+.card {
+  height: 100%;
+  width: 500px;
+}
+
+.card-header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.card-header h6{
+  font-size: 1.25rem;
+}
+
+.card-body{
+  font-size: 1.3rem;
+
+}
+

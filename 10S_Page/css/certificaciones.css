@@ -17,13 +17,22 @@
   opacity: 1;
 }
 
-.card {
-  height: 100%;
-}
 
 .card-header{
-  justify-content: center;
+  height: 100px;
   display: flex;
-  height: 82.52;
+  justify-content: center;
   align-items: center;
+}
+
+.card-header h6{
+  font-size: 1.25rem;
+}
+
+.card-body{
+  font-size: 1.3rem;
+}
+
+.card{
+  height: 100%;
 }
